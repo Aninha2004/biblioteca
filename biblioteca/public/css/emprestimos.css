@@ -1,0 +1,79 @@
+/* Estilos para a página de Empréstimos */
+body.emprestimos {
+    background-color: #f9e7e7; /* Rosa claro para a página */
+}
+
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px; /* Largura máxima do formulário */
+    margin: 20px auto; /* Margem automática para centralizar */
+}
+
+label {
+    font-weight: bold; /* Aumenta a espessura da fonte do rótulo */
+}
+
+input {
+    border: 1px solid #4CAF50; /* Borda vermelha para o campo de entrada */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+button {
+    background: #4CAF50; /* Vermelho para o botão */
+    color: white;
+    border: none;
+    padding: 9px; /* Aumentando o padding do botão */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Aumentando o tamanho da fonte do botão */
+}
+
+button:hover {
+    background: #4CAF50; /* Cor um pouco mais escura no hover */
+}
+
+/* Estilo para a lista de empréstimos */
+.empréstimos-list {
+    margin-top: 20px;
+    background: #fff; /* Fundo branco para a lista */
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.empréstimos-list h3 {
+    text-align: center;
+    color: #d32f2f; /* Cor do título da lista */
+}
+
+/* Estilo para mensagens de aviso ou sucesso */
+.message {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #d32f2f; /* Cor vermelha para mensagens de erro */
+}

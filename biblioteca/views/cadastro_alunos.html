@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="/public/css/cadastro_alunos.css"> <!-- Alterado para /css/... -->
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Alunos</h1>
+        <nav>
+            <ul>
+                <li><a href="/public/index.html">Início</a></li> <!-- Alterado para /views/... -->
+                <li><a href="/views/cadastro_alunos.html">Cadastro de Alunos</a></li>
+                <li><a href="/views/cadastro_livros.html">Cadastro de Livros</a></li> <!-- Alterado para /views/... -->
+                <li><a href="/views/emprestimos.html">Empréstimos</a></li> <!-- Alterado para /views/... -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="cadastroForm">
+            <label for="nome">Nome do Aluno:</label>
+            <input type="text" id="nome" name="nome" required><br>
+            
+            <label for="matricula">Matrícula:</label>
+            <input type="text" id="matricula" name="matricula" required><br><br>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        <button id="mostrarAlunos">Mostrar Alunos</button>
+        <ul id="listaAlunos"></ul>
+    </main>
+    <script src="/public/js/cadastro_alunos.js"></script> <!-- Alterado para /js/... -->
+    <footer>
+        <p>&copy; 2024 Biblioteca Municipal</p>
+    </footer>
+</body>
+</html>
